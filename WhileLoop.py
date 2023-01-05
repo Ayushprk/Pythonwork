@@ -1,4 +1,6 @@
 while True:
     response = input()
-    if response == "exit":
+    print(response)
+    print(response.lower())
+    if response.lower() == "exit":
         break
