@@ -5,5 +5,7 @@ for line in story:
     line_words = line.decode('utf8').split()
     for word in line_words:
         story_words.append(word)
-story_close()
-story_words
+
+story.close()
+for story_word in story_words:
+    print(story_word)
